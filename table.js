@@ -1,4 +1,5 @@
  
+ 
  function table ( a ) {
 
  for ( let i = 1; i <= 10; i++ )
@@ -44,7 +45,7 @@ console.log(x+y)
       body.classList.remove("white")
 
       body.classList.remove("mix")
-      body.style.color="black"
+      body.style.color="white"
 
       bt.classList.add("white")
       bt.classList.remove("dark")
@@ -59,7 +60,7 @@ else{
   body.classList.add("white")
   body.classList.remove("dark")
 
-  body.style.  color="black;"
+  body.style.  color="black"
   bt.classList.add("dark")
 
   bt.classList.remove("white")
@@ -69,6 +70,7 @@ else{
   di.style.boxShadow="0 0 500px indigo"
 
   body.classList.remove("mix")
+  
 }
  })
  TB=(A)=>{
