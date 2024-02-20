@@ -1,0 +1,219 @@
+#page {
+  height: 550px;
+  width: 320px;
+  border: 2px thick black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 0 600px;
+  box-shadow: 0 0 500px rgb(0, 0, 0);
+  color: white;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+  overflow: scroll;
+  scrollbar-width: none;
+
+  /* animation: ans 5s infinite; */
+  ;
+}
+
+#page:hover {
+  scale: 1.2;
+  animation: ans 5s infinite;
+}
+
+#input {
+  height: 25px;
+  width: 250px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  margin-top: 20px;
+  text-shadow: 0 0 20px rgb(95, 221, 95);
+  color: rgb(252, 252, 252);
+  background-color: transparent;
+  font-size: larger;
+  outline: none;
+  font-size: medium;
+  position: sticky;
+  top: 20px;
+}
+
+
+
+#input:hover {
+  box-shadow: 10px 10px 100px rgb(16, 18, 18);
+}
+
+/* #ans {
+  background-color: transparent;
+ 
+  box-shadow: 0 0 20px cyan;
+  width: 257px;
+  height: 500px;
+  border: 2px solid wheat;
+  text-align: center;
+  font-size:xx-large;
+  text-shadow: 0 0 20px rgb(204, 255, 204);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow:scroll;
+  scrollbar-width: none;
+  cursor:all-scroll;
+  outline: none;
+
+
+} */
+
+#click {
+  cursor: pointer;
+  width: 200px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: rgb(0, 242, 60);
+  font-size: larger;
+  box-shadow: 0 0 20px rgb(125, 240, 125);
+  font-size: medium;
+  position: sticky;
+  top: 50px;
+
+}
+
+/* #click:hover {
+  animation: ans 2s infinite;
+} */
+
+/* #page:hover{
+
+ } */
+@keyframes ans {
+
+  0% {
+    /* background-color: rgb(183, 0, 255); */
+    background-color: tranparent;
+    border-radius: 40px;
+    color: rgb(183, 0, 255);
+  }
+
+  15% {
+    /* background-color: rgb(0, 166, 255); */
+    background-color: tranparent;
+    border-radius: 40px;
+    color: rgb(0, 166, 255);
+    ;
+  }
+
+  20% {
+    /* background-color: rgb(255, 0, 238); */
+    background-color: tranparent;
+    border-radius: 40px;
+    color: rgb(255, 0, 238);
+  }
+
+  55% {
+    /* background-color: rgb(96, 252, 93); */
+    background-color: tranparent;
+    border-radius: 40px;
+    color: rgb(96, 252, 93);
+  }
+
+  65% {
+    /* background-color: rgb(226, 251, 2); */
+    background-color: tranparent;
+    border-radius: 40px;
+    color: rgb(226, 251, 2);
+  }
+
+  75% {
+    /* background-color: rgb(0, 255, 17); */
+    background-color: tranparent;
+    border-radius: 40px;
+    color: rgb(0, 255, 17);
+  }
+
+  100% {
+    /* background-color: rgb(255, 174, 0); */
+    background-color: tranparent;
+    border-radius: 40px;
+    color: rgb(255, 174, 0);
+  }
+
+  0% {
+    border-top: 5px solid rgb(22, 34, 2);
+    left: rgb(0, 0, 255);
+    border-bottom: 5px solid rgb(0, 0, 255);
+    ;
+
+  }
+
+  20% {
+    border-top: 5px solid rgb(255, 0, 251);
+    border-bottom: 5px solid rgb(22, 34, 2);
+  }
+
+  40% {
+    border-top: 5px solid rgb(255, 153, 0);
+    border-bottom: 5px solid rgb(22, 34, 2);
+    ;
+
+  }
+
+  60% {
+    border-top: 5px solid rgb(4, 255, 0);
+    border-bottom: 5px solid rgb(22, 34, 2);
+  }
+
+  80% {
+    border-top: 5px solid rgb(0, 149, 191);
+    border-bottom: 5px solid rgb(0, 149, 191);
+  }
+
+  100% {
+    border-top: 5px solid rgb(0, 0, 255);
+    border-bottom: 5px solid rgb(22, 34, 2);
+
+  }
+}
+
+.white {
+  background-color: white;
+  align-items: center;
+  background-image: url(galactic-night-sky-astronomy-science-combined-generative-ai.jpg);
+  background-size: cover;
+}
+
+.dark {
+  background-color: rgb(15, 2, 28);
+  align-items: center;
+}
+
+#mode {
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  outline: none;
+
+  animation: ans 2s infinite;
+  margin-left: 690px;
+
+}
+
+.mix {
+  background: linear-gradient(tobottom, rgb(115, 0, 255), rgb(255, 53, 107), rgb(129, 255, 18));
+  background-color: limegreen;
+
+
+}
+
+body {
+  background-color: rgb(15, 2, 28);
+
+}
