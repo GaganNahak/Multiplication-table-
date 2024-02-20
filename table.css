@@ -184,8 +184,9 @@
 .white {
   background-color: white;
   align-items: center;
-  background-image: url(galactic-night-sky-astronomy-science-combined-generative-al.jpg);
+/*   background-image: url(galactic-night-sky-astronomy-science-combined-generative-al.jpg); */
   background-size: cover;
+  color: black;
 }
 
 .dark {
