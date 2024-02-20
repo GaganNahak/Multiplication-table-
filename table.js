@@ -44,7 +44,7 @@ console.log(x+y)
       body.classList.remove("white")
 
       body.classList.remove("mix")
-      body.style.color="white"
+      body.style.color="black"
 
       bt.classList.add("white")
       bt.classList.remove("dark")
