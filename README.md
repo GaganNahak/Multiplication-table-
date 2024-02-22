@@ -1,3 +1,4 @@
 # Multiplyy-table-
 #output 
-galactic-night-sky-astronomy-science-combined-generative-al.jpg
+ ![Uploading galactic-night-sky-astronomy-science-combined-generative-ai.jpg…]()
+
