@@ -3,7 +3,7 @@
   width: 320px;
   border: 2px thick black;
   border-radius: 20px;
-  display: flex;
+  display:inline-block;
   flex-direction: column;
   align-items: center;
   margin: 50px 0 0 600px;
@@ -183,11 +183,11 @@
 }
 
 .white {
-  background-color: white;
+  
   align-items: center;
   background-image: url(galactic-night-sky-astronomy-science-combined-generative-al.jpg);
   background-size: cover;
-  color: rgb(218, 54, 54);
+  color: rgb(47, 37, 37);
   
 }
 
@@ -197,7 +197,7 @@
 }
 
 #mode {
-  background-color: black;
+  /* background-color: black; */
   /* color: aliceblue; */
   height: 50px;
   width: 150px;
@@ -209,22 +209,21 @@
 
 }
 
-.mix {
+/* .mix {
   background: linear-gradient(tobottom, rgb(115, 0, 255), rgb(255, 53, 107), rgb(129, 255, 18));
   background-color: limegreen;
 
 
-}
+} */
 
-body {
- background-color: white;
-}
+ 
 @media only screen and (max-width: 600px) {
    #page{
     margin: 50px 0 0 30px ;
-width:290px;
+
    }
    #mode{
     margin: 0 0 0 120px;
    }
 }
+
