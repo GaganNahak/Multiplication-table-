@@ -1,5 +1,4 @@
  
- 
  function table ( a ) {
 
  for ( let i = 1; i <= 10; i++ )
@@ -43,14 +42,15 @@ console.log(x+y)
       cm="dark"
       body.classList.add("dark")
       body.classList.remove("white")
+      // di.classList.remove("white")
 
-      body.classList.remove("mix")
+      // body.classList.remove("mix")
       body.style.color="white"
 
       bt.classList.add("white")
       bt.classList.remove("dark")
 
-      bt.style.backgroundColor="white"
+      // bt.style.backgroundColor="white"
       bt.style.color="black"
 
       di.style.boxShadow="0 0 500px violet"
@@ -59,18 +59,20 @@ else{
   cm="white"
   body.classList.add("white")
   body.classList.remove("dark")
+  // body.classList.remove("mix")
+  
 
-  body.style.  color="black"
+  // body.style.  color="black"
+
+
   bt.classList.add("dark")
-
   bt.classList.remove("white")
   bt.style.color="white"
 
-  bt.style.backgroundColor="black"
+  // bt.style.backgroundColor="black"
   di.style.boxShadow="0 0 500px indigo"
+  // di.classList.add("white")
 
-  body.classList.remove("mix")
-  
 }
  })
  TB=(A)=>{
@@ -80,14 +82,14 @@ else{
       console.log( `${A}*${i}=${A*i}`)
   } 
  }
- document.getElementById("mix").addEventListener("click",()=>{
-  body.classList.add("mix")
+//  document.getElementById("mix").addEventListener("click",()=>{
+//   body.classList.add("mix")
   
-  di.style.boxShadow="0 0 500px red"
- })
- document.getElementById("mix").addEventListener("dblclick",()=>{
-  body.classList.remove("mix")
-  di.style.boxShadow="0 0 500px black"
- }) 
+//   di.style.boxShadow="0 0 500px red"
+//  })
+//  document.getElementById("mix").addEventListener("dblclick",()=>{
+//   body.classList.remove("mix")
+//   di.style.boxShadow="0 0 500px black"
+//  }) 
   
   
